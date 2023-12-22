@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- Font CSS -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/gallery_responsive.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- Script File -->
+    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
+    
+     <title>Prajit</title>
+</head>
+
+<body>
+
+    <!-- PROGRESS ICON STARTS HERE -->
+    <div class="progress-wrap">
+        <i class="bi bi-arrow-up"></i>
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- PROGRESS ICON ENDS HERE -->
+
+    <!-- NAVBAR STARTS HERE -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid navbar-link-holder">
+            <h1 class="logo">Prajit</h1>
+            <div class="d-flex align-items-center justify-content-center conatainer-for-toogle-switch"> <!-- Container for menu icon and toggle button -->
+                
+                <label class="switch" for="toggleSwitch">
+                    <input type="checkbox" id="toggleSwitch">
+                    <span class="slider"></span>
+                </label>
+
+                <button class="navbar-toggler" id="navbar-toggler" aria-label="Toggle navigation">
+                    <i class="hamburger bi bi-list"></i>
+                    <span class="cross bi bi-x" style="display: none;"></span>
+                </button>
+            </div>
+
+
+            <div class="collapse navbar-collapse d-none d-lg-block" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-items" id="menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-target="home">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-target="resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-target="portfolio">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link selected active" href="#" data-target="about">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-target="contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="overlay d-lg-none d-sm-block" id="overlay">
+
+                <div class="overlay-content">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-items" id="menu">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-target="home">Home</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-target="resume">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-target="portfolio">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link selected active" href="#" data-target="about">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-target="contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+
+
+        </div>
+    </nav>
+
+
+
+    
+    <!-- NAVBAR ENDS HERE -->
+
+    <!-- HERO SECTION STARTS HERE -->
+    <div class="container-for-hero-section-in-about-page reveal-curve-left  d-flex flex-column justify-content-center">
+        <div class="container hero-section-text">
+            <h1 class="gallery-text">Gallery</h1>
+            <h1 class="a-bit-about-me-text bottom-to-top overflow-hidden">Beyond Screens, I Cherish Exploring & Capturing Moments.</h1>
+
+            <svg class="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67 63">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M37.6687 1.59326C55.1304 7.11965 70.7244 22.0686 65.2235 39.4498C59.2896 58.1992 37.9884 66.0613 19.1521 60.0999C2.71175 54.8967 -3.04411 35.8477 2.13506 19.4831C6.81182 4.70596 22.8231 -3.10516 37.6687 1.59326Z" fill="url(#paint0_linear_576_959)"/>
+                <defs>
+                <linearGradient id="paint0_linear_576_959" x1="51.7323" y1="93.9757" x2="26.4603" y2="-2.58406" gradientUnits="userSpaceOnUse">
+                <stop offset="0.0001" stop-color="#759CFF" stop-opacity="0.37"/>
+                <stop offset="1" stop-color="#759CFF" stop-opacity="0"/>
+                </linearGradient>
+                </defs>
+            </svg>
+
+            <svg class="svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67 63">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M37.6687 1.59326C55.1304 7.11965 70.7244 22.0686 65.2235 39.4498C59.2896 58.1992 37.9884 66.0613 19.1521 60.0999C2.71175 54.8967 -3.04411 35.8477 2.13506 19.4831C6.81182 4.70596 22.8231 -3.10516 37.6687 1.59326Z" fill="url(#paint0_linear_576_959)"/>
+                <defs>
+                <linearGradient id="paint0_linear_576_959" x1="51.7323" y1="93.9757" x2="26.4603" y2="-2.58406" gradientUnits="userSpaceOnUse">
+                <stop offset="0.0001" stop-color="#759CFF" stop-opacity="0.37"/>
+                <stop offset="1" stop-color="#759CFF" stop-opacity="0"/>
+                </linearGradient>
+                </defs>
+            </svg>
+
+            <svg class="svg3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67 63">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M37.6687 1.59326C55.1304 7.11965 70.7244 22.0686 65.2235 39.4498C59.2896 58.1992 37.9884 66.0613 19.1521 60.0999C2.71175 54.8967 -3.04411 35.8477 2.13506 19.4831C6.81182 4.70596 22.8231 -3.10516 37.6687 1.59326Z" fill="url(#paint0_linear_576_959)"/>
+                <defs>
+                <linearGradient id="paint0_linear_576_959" x1="51.7323" y1="93.9757" x2="26.4603" y2="-2.58406" gradientUnits="userSpaceOnUse">
+                <stop offset="0.0001" stop-color="#759CFF" stop-opacity="0.37"/>
+                <stop offset="1" stop-color="#759CFF" stop-opacity="0"/>
+                </linearGradient>
+                </defs>
+            </svg>
+            <svg class="svg4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67 63">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M37.6687 1.59326C55.1304 7.11965 70.7244 22.0686 65.2235 39.4498C59.2896 58.1992 37.9884 66.0613 19.1521 60.0999C2.71175 54.8967 -3.04411 35.8477 2.13506 19.4831C6.81182 4.70596 22.8231 -3.10516 37.6687 1.59326Z" fill="url(#paint0_linear_576_959)"/>
+                <defs>
+                <linearGradient id="paint0_linear_576_959" x1="51.7323" y1="93.9757" x2="26.4603" y2="-2.58406" gradientUnits="userSpaceOnUse">
+                <stop offset="0.0001" stop-color="#759CFF" stop-opacity="0.37"/>
+                <stop offset="1" stop-color="#759CFF" stop-opacity="0"/>
+                </linearGradient>
+                </defs>
+            </svg>
+
+        </div>
+    </div>
+    <!-- HERO SECTION ENDS HERE -->
+    <div class="Collections">
+        <div class="container">
+            <h1 class="interest">Collections</h1>
+            <div class="row">
+                <div class="col-lg-3 bottom-to-top">
+                    <a class="sikkim_gallery"  href="mysore_gallery.html">
+                        <img class="w-100 cover-image" src="Images/myorepalace.jpg" alt="">
+                        <div class="w-100">
+                            <h4 class="place">Mysore, India</h4>
+                            <p class="year">2023</p>
+                        </div>
+                      
+                    </a>
+                </div>
+                <div class="col-lg-3 bottom-to-top">
+                    <a class="sikkim_gallery"  href="sikkim_gallery.html">
+                        <img class="w-100 cover-image" src="Images/IMG_20220315_094520 (1).jpg" alt="">
+                        <div class="w-100">
+                            <h4 class="place">Sikkim, India</h4>
+                            <p class="year">2022</p>
+                        </div>
+                      
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="recent">
+        <div class="container">
+            <h1 class="interest">Recent</h1>
+
+            <div  class="image-container" id="imageContainer">         
+                <div class="tz-gallery">
+
+                    <div class="row">
+
+                        <div class="col-sm-12 col-md-4 reveal-curve-left ">
+                            <a class="lightbox" href="Images/IMG_20220315_094520 (1).jpg">
+                                <img class="" src="Images/IMG_20220315_094520 (1).jpg" alt="Bridge">
+                            </a>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-4 reveal-curve-left ">
+                            <a class="lightbox" href="Images/IMG_20220315_121437.jpg">
+                                <img src="Images/IMG_20220315_121437.jpg" alt="Park">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4 reveal-curve-left ">
+                            <a class="lightbox" href="Images/IMG_20220315_091741.jpg">
+                                <img src="Images/IMG_20220315_091741.jpg" alt="Tunnel">
+                            </a>
+                        </div>
+
+                        <div class="col-sm-6 col-md-4 reveal-curve-left ">
+                            <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg">
+                                <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg" alt="Coast">
+                            </a>
+                        </div> 
+                        <div class="col-sm-12 col-md-8 reveal-curve-left ">
+                            <a class="lightbox" href="Images/lake.jpg">
+                                <img src="Images/lake.jpg" alt="Traffic">
+                            </a>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="download-resume-button-container d-flex justify-content-center bottom-to-top overflow-hidden">
+                    <a href="#" class="load-more-button" id="loadMoreButton">Load More</a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+    <!-- FOOTER STARTS HERE -->
+    <div class="parent-container-for-footer">
+        <div class="container">
+            <h3 class="follow-me-text">Connect Me</h3>
+            <div class="d-flex flex-row align-items-center justify-content-center mt-2 overflow-hidden">
+                <a href="https://www.instagram.com/iam_prajit/" class="social-icon bottom-to-top" target="_blank"><i
+                        class="bi bi-instagram"></i></a>
+                <a href="https://www.behance.net/pradas3" class="social-icon bottom-to-top" target="_blank"><i
+                        class="bi bi-behance"></i></a>
+                <a href="https://dribbble.com/PrajitO1" class="social-icon bottom-to-top" target="_blank"><i
+                        class="bi bi-dribbble"></i></a>
+                <a href="https://www.linkedin.com/in/prajit-das-1b75881a2/" class="social-icon bottom-to-top" target="_blank"><i
+                        class="bi bi-linkedin"></i></a>
+            </div>
+            <p class="copyright-text mt-1">Copyright © 2023. All right reserved.</p>
+        </div>
+    </div>
+    <!-- FOOTER ENDS HERE -->
+    
+
+
+    <!-- NAV SAHDOW STARTS HERE -->
+    <script>
+    window.addEventListener('scroll', function() {
+        const navbar = document.getElementById('navbar');
+        if (window.scrollY > 0) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+    
+    </script>
+
+    <!-- NAV SAHDOW ENDS HERE -->
+
+
+    <!-- SCROLL TO TOP STARTS HERE -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script>
+        (function ($) {
+            "use strict";
+
+            $(document).ready(function () {
+                "use strict";
+
+                //Scroll back to top
+
+                var progressPath = document.querySelector('.progress-wrap path');
+                var pathLength = progressPath.getTotalLength();
+                progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+                progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+                progressPath.style.strokeDashoffset = pathLength;
+                progressPath.getBoundingClientRect();
+                progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
+                var updateProgress = function () {
+                    var scroll = $(window).scrollTop();
+                    var height = $(document).height() - $(window).height();
+                    var progress = pathLength - (scroll * pathLength / height);
+                    progressPath.style.strokeDashoffset = progress;
+                }
+                updateProgress();
+                $(window).scroll(updateProgress);
+                var offset = 50;
+                var duration = 550;
+                jQuery(window).on('scroll', function () {
+                    if (jQuery(this).scrollTop() > offset) {
+                        jQuery('.progress-wrap').addClass('active-progress');
+                    } else {
+                        jQuery('.progress-wrap').removeClass('active-progress');
+                    }
+                });
+                jQuery('.progress-wrap').on('click', function (event) {
+                    event.preventDefault();
+                    jQuery('html, body').animate({ scrollTop: 0 }, duration);
+                    return false;
+                })
+
+
+            });
+
+        })(jQuery);
+    </script>
+    <!-- SCROLL TO TOP ENDS HERE -->
+
+    <script>
+        let imageIndex = 0; // Initialize the index of the current image
+    const images = [
+        "Images/about_section_image.png",
+        "Images/IMG_20220315_121437.jpg",
+    ];
+
+    function changeImage() {
+        const imgElement = document.querySelector('.gallery-img');
+        imgElement.src = images[imageIndex];
+        imageIndex++;
+        if (imageIndex >= images.length) {
+            imageIndex = 0;
+        }
+    }
+    setInterval(changeImage, 4000);
+    </script>
+
+    <!-- NAVBAR TOOGLE  STARTS HERE-->
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const navbarToggler = document.getElementById('navbar-toggler');
+        const navbarCollapse = document.getElementById('navbarSupportedContent');
+        const hamburgerIcon = navbarToggler.querySelector('.hamburger');
+        const crossIcon = navbarToggler.querySelector('.cross');
+    
+        navbarToggler.addEventListener('click', function() {
+            navbarCollapse.classList.toggle('show');
+            hamburgerIcon.style.display = hamburgerIcon.style.display === 'none' ? 'inline' : 'none';
+            crossIcon.style.display = crossIcon.style.display === 'none' ? 'inline' : 'none';
+        });
+    });
+    
+    </script>
+    <!-- NAVBAR TOOGLE  ENDS HERE-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="js/java_script.js"></script>
+    <script src="js/dark_mode.js"></script>
+
+    <script>
+        // Initialize Bootstrap tabs
+        var myTab = new bootstrap.Tab(document.getElementById('home-tab'));
+        myTab.show();
+    </script>
+
+
+
+    <!-- REVEAL EFFECT STARTS HERE -->
+     <script>
+        var rafId = null;
+        var delay = 200;
+        var lTime = 0;
+
+        function scroll() {
+        var scrollTop = $(window).scrollTop();
+        var height = $(window).height()
+        var visibleTop = scrollTop + height;
+        $('.reveal').each(function() {
+            var $t = $(this);
+            if ($t.hasClass('reveal_visible')) { return; }
+            var top = $t.offset().top;
+            if (top <= visibleTop) {
+            if (top + $t.height() < scrollTop) {
+                $t.removeClass('reveal_pending').addClass('reveal_visible');
+            } else {
+                $t.addClass('reveal_pending');
+                if (!rafId) requestAnimationFrame(reveal);  
+            }
+            }
+        });
+        }
+        function reveal() {
+        rafId = null;
+        var now = performance.now();
+        
+        if (now - lTime > delay) {
+            lTime = now;
+            var $ts = $('.reveal_pending');
+            $($ts.get(0)).removeClass('reveal_pending').addClass('reveal_visible');  
+        }
+        
+        
+        if ($('.reveal_pending').length >= 1) rafId = requestAnimationFrame(reveal);
+        }
+
+        $(scroll);
+        $(window).scroll(scroll);
+          </script>
+    <!-- REVEAL EFFECT ENDS HERE -->
+
+    <!-- LEFT TO RIGHT ANIMATION STARTS HERE -->
+    <script>
+        function revealOnScroll() {
+            const elements = document.querySelectorAll('.bottom-to-top');
+            elements.forEach((element) => {
+                const elementTop = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                if (elementTop < windowHeight) {
+                    element.classList.add('bottom-to-top-visible');
+                }
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', revealOnScroll);
+        window.addEventListener('scroll', revealOnScroll);
+
+    </script>
+
+    <!-- LEFT TO RIGHT ANIMATION ENDS HERE -->
+
+    <!-- IMAGE OPEN STARTS HERE -->
+
+    <script>
+        function revealOnScroll() {
+  const elements = document.querySelectorAll('.reveal-curve-left');
+  elements.forEach((element) => {
+    const elementTop = element.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+    if (elementTop < windowHeight) {
+      element.classList.add('reveal-curve-left-visible');
+    }
+  });
+}
+
+document.addEventListener('DOMContentLoaded', revealOnScroll);
+window.addEventListener('scroll', revealOnScroll);
+
+    </script>
+
+    <!-- IMAGE OPEN STARTS HERE -->
+
+
+
+    <script>
+        function toggleDiv(divId) {
+            var div = document.getElementById(divId);
+            if (div.style.display === 'none' || div.style.display === '') {
+                div.style.display = 'block';
+            } else {
+                div.style.display = 'none';
+            }
+        }
+    </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+ 
+
+
+
+<script>
+    // Get necessary elements
+const navbarToggler = document.getElementById('navbar-toggler');
+const overlay = document.getElementById('overlay');
+
+// Toggle the overlay on button click
+navbarToggler.addEventListener('click', function() {
+    overlay.classList.toggle('active');
+});
+
+</script>
+
+
+
+
+</body>
+
+</html>
